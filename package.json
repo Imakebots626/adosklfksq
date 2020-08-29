@@ -1,0 +1,39 @@
+{
+  "name": "Laila",
+  "version": "0.0.1",
+  "description": "Laila, a purpose built anti-nuke Discord bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plexidev/discord-guardian.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plexidev/discord-guardian/issues"
+  },
+  "homepage": "https://github.com/plexidev/discord-guardian#readme",
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": {
+    "discord-akairo": "^8.1.0",
+    "discord.js": "^12.3.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0",
+    "parse-ms": "^2.1.0",
+    "path": "^0.12.7",
+    "quick.db": "github:truexpixels/quick.db",
+    "sequelize": "^6.3.4",
+    "dotenv-extended": "^2.8.0",
+    "dotenv-webpack": "^1.8.0",
+    "dotenv-safe": "^8.1.0",
+    "dotenv-cli": "^3.2.0",
+    "approximate-number": "^2.0.0",
+    "chalk": "^4.1.0"
+  }
+}
